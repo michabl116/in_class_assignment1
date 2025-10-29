@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE_NAME = "michabl/in_class_assignment1"
         DOCKER_IMAGE_TAG = "latest"
         DOCKER_CREDENTIALS_ID = "Docker_Hub"
-        FULL_IMAGE_NAME = "michabl/in_class_assignment1:latest"
+        FULL_IMAGE_NAME = "michabl/in_class_assignment1"
         PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
     }
     stages {
